@@ -2,7 +2,7 @@
 @csrf
 @method('put')
 <div class="form-group">
-    <label>Nama</label>
+    <label>Nama Lengkap</label>
     <input type="text" name="nama"  class="form-control" value="{{ $anggota->nama }}">
 </div>
 <div class="form-group">
@@ -32,9 +32,9 @@
 
 </div>
 <div class="form-group">
-    <label>Petugas</label>
+    <label>Status Anggota</label>
     <select name="user_id"  class="form-control">
-        <option selected disabled>-- Pilih Petugas -- </option>
+        <option selected disabled>-- Pilih status -- </option>
         @foreach ($users as $item)
         <option value="{{ $item->id }}">{{ $item->level }}</option>
         @endforeach

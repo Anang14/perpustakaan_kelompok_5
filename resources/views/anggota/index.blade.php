@@ -152,7 +152,7 @@
                     <form action="{{ route('anggota.store') }}" method="post">
                         @csrf
                         <div class="form-group">
-                            <label for="">Nama</label>
+                            <label for="">Nama Lengkap</label>
                             <input type="text" name="nama"  class="form-control" value="{{ old('nama') }}">
                             @error('nama')
                                 <span class="text-danger">{{ $message }}</span>
@@ -201,9 +201,9 @@
                             @enderror
                         </div>
                         <div class="form-group">
-                            <label for="">Petugas</label>
+                            <label for="">Status Keanggotaan</label>
                             <select name="user_id" class="form-control">
-                                <option disabled selected>-- Pilih Petugas --</option>
+                                <option disabled selected>-- Pilih Status --</option>
                                 @foreach ($users as $item)
                                 <option value="{{ $item->id }}"> {{  $item->level }}</option>
                                 @endforeach
