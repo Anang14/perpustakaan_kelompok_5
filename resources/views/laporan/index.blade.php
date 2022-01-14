@@ -7,7 +7,7 @@
                   <div class="card-header">
                     <div class="row align-items-center">
                       <div class="col">
-                        <h3 class="mb-0">Laporan Anggota & Transaksi </h3>
+                        <h3 class="mb-0">Laporan Buku & Transaksi </h3>
                       </div>
                     </div>
                   </div>
