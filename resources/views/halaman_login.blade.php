@@ -149,6 +149,8 @@
   {{-- @jquery --}}
   @toastr_js
   @toastr_render
+  <!-- landing page -->
+  
 </body>
 
 </html>
