@@ -68,7 +68,7 @@
             </div>
             <div class="card-body px-lg-5 py-lg-3">
               <div class="text-center text-muted mb-4">
-                <h3>Login</h3>
+                <h2>MASUK</h2>
               </div>
               <form role="form" action="{{ route('login_verifikasi') }}" method="POST">
                 @csrf
@@ -121,7 +121,7 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+              <a href="https://www.creative-tim.com" class="nav-link" target="_blank"> /a>
             </li>
             <li class="nav-item">
               <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>

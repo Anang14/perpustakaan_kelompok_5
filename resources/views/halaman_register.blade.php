@@ -102,7 +102,7 @@
                 <div class="form-group">
                     <div class="custom-file">
                         <input type="file" name="avatar" class="custom-file-input" id="inputGroupFile01">
-                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        <label class="custom-file-label" for="inputGroupFile01">Tambahkan foto</label>
                       </div>
                 </div>
                 
