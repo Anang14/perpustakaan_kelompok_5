@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('halaman_login');
 });
 
+Route::get('/home', function () {
+    return view('frontend.index');
+})->middleware('privilege:admin&user');
+
 // Auth::routes();
 
 Route::get('register', 'SistemLoginController@register');

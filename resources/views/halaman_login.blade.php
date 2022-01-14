@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="text-center">
-                  <div class="text-muted text-center mt-4 mb-3"><a href="{{ url('/register') }}"><small>Create An Account!</small></a></div>
+                  <div classs="text-muted text-center mt-4 mb-3"><a href="{{ url('/register') }}"><small>Create An Account!</small></a></div>
                 </div>
               </form>
             </div>
