@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="row">
+    <div class="row" style="background-color: grey">
         <div class="col-md-12 mt-4">
                 <div class="card">
                   <div class="card-header">
